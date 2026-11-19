@@ -505,29 +505,33 @@
                 </div>
 
                 <!-- 8 -->
-                <div>
+               <div>
                     <label class="block text-sm font-semibold mb-2">8. O quão importante você diria que são essas informações em um post para um evento?</label>
                     <div class="space-y-2 text-xs">
                         <div class="flex justify-between items-center bg-white/5 p-3 rounded-xl">
-                            <span>Data, hora e endereço completo</span>
-                            <select name="info_data" class="bg-urbanDark border border-white/20 rounded p-1">
+                        <span>Data, hora e endereço completo</span>
+                            <select name="info_data" required class="bg-urbanDark border border-white/20 rounded p-1">
                                 <option value="" disabled selected>Selecione</option>
-                                <option>Nada importante</option><option>Importante</option><option selected>Muito importante</option></select>
+                                <option>Nada importante</option><option>Importante</option><option>Muito importante</option>
+                            </select>
+                        </div>    
+                        <div class="flex justify-between items-center bg-white/5 p-3 rounded-xl">
+                        <span>Como chegar / Orientações</span>
+                            <select name="info_chegar" required class="bg-urbanDark border border-white/20 rounded p-1">
+                                <option value="" disabled selected>Selecione</option>
+                                <option>Nada importante</option><option>Importante</option><option>Muito importante</option>
+                            </select>
                         </div>
                         <div class="flex justify-between items-center bg-white/5 p-3 rounded-xl">
-                            <span>Como chegar / Orientações</span>
-                            <select name="info_chegar" class="bg-urbanDark border border-white/20 rounded p-1">
+                        <span>Artistas participantes e estilos</span>
+                            <select name="info_artistas" required class="bg-urbanDark border border-white/20 rounded p-1">
                                 <option value="" disabled selected>Selecione</option>
-                                <option>Nada importante</option><option selected>Importante</option><option>Muito importante</option></select>
+                                <option>Nada importante</option><option>Importante</option><option>Muito importante</option>
+                            </select>
                         </div>
-                        <div class="flex justify-between items-center bg-white/5 p-3 rounded-xl">
-                            <span>Artistas participantes e estilos</span>
-                            <select name="info_artistas" class="bg-urbanDark border border-white/20 rounded p-1">
-                                <option value="" disabled selected>Selecione</option>
-                                <option>Nada importante</option><option>Importante</option><option selected>Muito importante</option></select>
-                        </div>
-                    </div>
                 </div>
+        </div>
+
 
                 <!-- 9 -->
                 <div>
