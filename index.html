@@ -270,20 +270,10 @@
                 <!-- 1 -->
                 <div>
                     <label class="block text-sm font-semibold mb-2">1. Qual o tipo de arte que você produz?</label>
-                    <select name="art_tipo" class="w-full bg-urbanDark border border-white/20 rounded-xl px-4 py-3 text-sm focus:border-urbanPink outline-none">
-                        <option value="Musica">Música</option>
-                        <option value="Grafite">Grafite</option>
-                        <option value="Pintura">Pintura</option>
-                        <option value="Poesia">Poesia</option>
-                        <option value="Slam">Slam</option>
-                        <option value="Danca">Dança</option>
-                        <option value="Estatua Viva">Estátua Viva</option>
-                        <option value="Teatro">Teatro</option>
-                        <option value="Escultura">Escultura</option>
-                        <option value="Artesanato">Artesanato</option>
-                        <option value="Outro">Outro</option>
-                    </select>
+                    <input type="text" name="art_tipo" placeholder="Ex.: música, grafite, poesia..."
+                        class="w-full bg-urbanDark border border-white/20 rounded-xl px-4 py-3 text-sm focus:border-urbanPink outline-none">
                 </div>
+
 
                 <!-- 2 -->
                 <div>
@@ -295,6 +285,7 @@
                 <div>
                     <label class="block text-sm font-semibold mb-2">3. Por qual meio você faz a comunicação com o seu público?</label>
                     <select name="art_comunicacao" class="w-full bg-urbanDark border border-white/20 rounded-xl px-4 py-3 text-sm focus:border-urbanPink outline-none">
+                        <option value="" disabled selected>Selecione uma opção</option>
                         <option value="Redes sociais">Por meio de redes sociais</option>
                         <option value="Em eventos">Em eventos que participo</option>
                         <option value="Mais pessoal">Tento fazer uma comunicação mais pessoal</option>
@@ -340,6 +331,7 @@
                 <div>
                     <label class="block text-sm font-semibold mb-2">6. Você diria que tem facilidade de comunicação com o público?</label>
                     <select name="art_facilidade_com" class="w-full bg-urbanDark border border-white/20 rounded-xl px-4 py-3 text-sm focus:border-urbanPink outline-none">
+                        <option value="" disabled selected>Selecione uma opção</option>
                         <option value="Sim">Sim</option>
                         <option value="Não">Não</option>
                         <option value="Não sei">Não sei</option>
@@ -356,6 +348,7 @@
                 <div>
                     <label class="block text-sm font-semibold mb-2">8. Você acha que um aplicativo específico para essa interação entre artista e consumidor ajudaria ambas as partes?</label>
                     <select name="art_ajudaria" class="w-full bg-urbanDark border border-white/20 rounded-xl px-4 py-3 text-sm focus:border-urbanPink outline-none">
+                        <option value="" disabled selected>Selecione uma opção</option>
                         <option value="Sim">Sim</option>
                         <option value="Não">Não</option>
                         <option value="Não sei">Não sei</option>
@@ -366,6 +359,7 @@
                 <div>
                     <label class="block text-sm font-semibold mb-2">9. No primeiro acesso ao app, você prefere ter liberdade de navegação (conhecer as funcionalidades) antes mesmo de precisar preencher telas de login e cadastro?</label>
                     <select name="art_liberdade_nav" class="w-full bg-urbanDark border border-white/20 rounded-xl px-4 py-3 text-sm focus:border-urbanPink outline-none">
+                        <option value="" disabled selected>Selecione uma opção</option>
                         <option value="Sim">Sim</option>
                         <option value="Não">Não</option>
                         <option value="Não sei">Não sei</option>
@@ -401,6 +395,7 @@
                 <div>
                     <label class="block text-sm font-semibold mb-2">13. O que justificaria uma assinatura premium no app para quem produz cultura?</label>
                     <select name="art_premium" class="w-full bg-urbanDark border border-white/20 rounded-xl px-4 py-3 text-sm focus:border-urbanPink outline-none">
+                        <option value="" disabled selected>Selecione uma opção</option>
                         <option value="Sem anúncios">Navegação 100% sem anúncios</option>
                         <option value="Mais possibilidades no perfil">Perfil com mais possibilidades de edição</option>
                         <option value="Impulsionamento">Impulsionamento de postagens ou eventos</option>
@@ -425,6 +420,7 @@
                 <div>
                     <label class="block text-sm font-semibold mb-2">1. Como você diria que acompanha artistas independentes/urbanos?</label>
                     <select name="cons_acompanha" class="w-full bg-urbanDark border border-white/20 rounded-xl px-4 py-3 text-sm focus:border-urbanPink outline-none">
+                        <option value="" disabled selected>Selecione uma opção</option>
                         <option value="Redes sociais">Por meio de redes sociais</option>
                         <option value="Eventos">Em eventos que frequento</option>
                         <option value="Outras pessoas">Fico sabendo por outras pessoas</option>
@@ -437,6 +433,7 @@
                 <div>
                     <label class="block text-sm font-semibold mb-2">2. Como você enxerga a arte de rua em São Paulo?</label>
                     <select name="cons_visao_arte" class="w-full bg-urbanDark border border-white/20 rounded-xl px-4 py-3 text-sm focus:border-urbanPink outline-none">
+                        <option value="" disabled selected>Selecione uma opção</option>
                         <option value="Muito interessante">Muito interessante</option>
                         <option value="Boa">Boa</option>
                         <option value="Sem opinião">Não tenho uma opinião formada</option>
@@ -455,6 +452,7 @@
                 <div>
                     <label class="block text-sm font-semibold mb-2">4. Você diria que os artistas independentes/urbanos têm facilidade de comunicação com o público?</label>
                     <select name="cons_facilidade" class="w-full bg-urbanDark border border-white/20 rounded-xl px-4 py-3 text-sm focus:border-urbanPink outline-none">
+                        <option value="" disabled selected>Selecione uma opção</option>
                         <option value="Sim">Sim</option>
                         <option value="Não">Não</option>
                         <option value="Não sei">Não sei</option>
@@ -465,6 +463,7 @@
                 <div>
                     <label class="block text-sm font-semibold mb-2">5. Você acha que um aplicativo específico para essa interação entre artista e consumidor ajudaria ambas as partes?</label>
                     <select name="cons_ajuda" class="w-full bg-urbanDark border border-white/20 rounded-xl px-4 py-3 text-sm focus:border-urbanPink outline-none">
+                        <option value="" disabled selected>Selecione uma opção</option>
                         <option value="Sim">Sim</option>
                         <option value="Não">Não</option>
                         <option value="Não sei">Não sei</option>
@@ -475,6 +474,7 @@
                 <div>
                     <label class="block text-sm font-semibold mb-2">6. No primeiro acesso ao app, você prefere ter liberdade de navegação antes mesmo de precisar preencher telas de login e cadastro?</label>
                     <select name="cons_liberdade" class="w-full bg-urbanDark border border-white/20 rounded-xl px-4 py-3 text-sm focus:border-urbanPink outline-none">
+                        <option value="" disabled selected>Selecione uma opção</option>
                         <option value="Sim">Sim</option>
                         <option value="Não">Não</option>
                         <option value="Não sei">Não sei</option>
@@ -534,6 +534,7 @@
                 <div>
                     <label class="block text-sm font-semibold mb-2">11. O que justificaria uma assinatura premium no app para quem consome cultura?</label>
                     <select name="cons_premium" class="w-full bg-urbanDark border border-white/20 rounded-xl px-4 py-3 text-sm focus:border-urbanPink outline-none">
+                        <option value="" disabled selected>Selecione uma opção</option>
                         <option value="Sem anúncios">Navegação 100% sem anúncios</option>
                         <option value="Mais possibilidades no perfil">Perfil com mais possibilidades de edição</option>
                         <option value="Apenas gratuita">Usaria apenas a versão gratuita</option>
